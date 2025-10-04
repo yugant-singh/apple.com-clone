@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+
+    position: fixed;
+    /* YEH ADD KAREN */
+    top: 0;
+    /* YEH ADD KAREN */
+    z-index: 1000;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    text-align: center;
+    background-color: #1D1D1F;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    gap: 20px;
+
+}
+
+.logo {
+    height: 18px;
+    width: 18px;
+    background-image: url(./apple.webp);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(150%);
+}
+
+
+
+nav a {
+    position: relative;
+    padding: 12px;
+    text-decoration: none;
+    align-items: center;
+    color: #f5f5f7;
+    font-size: 12px;
+    font-weight: 200;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after {
+    width: 80%;
+}
+
+
+
+
+
+
+#iphone {
+
+    color: white;
+
+}
+
+.iphone-pro {
+    position: relative;
+    width: 100%;
+
+    height: 630px;
+    background-image: url("https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#iphone h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+
+}
+
+
+
+#iphone p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.btn .lftbtn {
+
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: #0071E3;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn .rghtbtn {
+    border: 1px solid #0071E3;
+    padding: 12px 20px;
+    border-radius: 18px;
+    background: transparent;
+    color: #0071E3;
+}
+
+.btn .rghtbtn:hover {
+    color: white;
+    background-color: #0071E3;
+}
+
+#iphone-air {
+    color: black;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg);
+}
+
+#iphone17 {
+    color: black;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_medium.jpg);
+}
+
+
+
+#product {
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.item {
+    height: 500px;
+    width: 48%;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.item h1 {
+    text-align: center;
+    font-size: 45px;
+    padding-left: 5px;
+}
+
+.item .para {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#product #item1 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#product #item2 {
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#item3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_medium.jpg);
+}
+
+
+#item4 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_medium.jpg);
+}
+
+#btn {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#btn .left {
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: white;
+    background-color: #0071E3;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+#btn .right {
+    padding: 12px 20px;
+    border: 1px solid #0071E3;
+    padding: 12px 20px;
+    border-radius: 18px;
+    background: transparent;
+    color: #0071E3;
+}
+
+#btn .right:hover {
+    background-color: #0071E3;
+    color: white;
+}
