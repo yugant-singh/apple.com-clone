@@ -3,7 +3,7 @@
 A pixel-perfect static clone of Apple's official website built with pure HTML and CSS. This project demonstrates advanced CSS techniques and clean code structure.
 
 ## 🚀 Live Demo
-[Add your GitHub Pages link here]
+[https://yugant-singh.github.io/apple.com-clone/]
 
 ## 🛠️ Built With
 - **HTML5** - Semantic markup
